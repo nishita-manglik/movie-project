@@ -1,0 +1,106 @@
+<!-- Loader -->
+<div *ngIf="isLoading" class="loader-overlay">
+    <div class="spinner"></div>
+</div>
+<div class="mainwrapper container-fluid">
+
+    <img src="{{movie_detail.poster}}" class="background-image" alt="Movie poster">
+
+    <div class="content-overlay">
+        <div class="row sub-container align-items-start flex-wrap">
+            <div class="col-auto">
+                <i class="fas fa-home sidebar-icon" (click)="mainPage()"></i>
+            </div>
+            <div class="col">
+                <h1 class="show-title">{{movie_detail.title}}</h1>
+
+                <div class="">
+                    <span class="metadata-item">{{movie_detail.year}}</span>
+                    <span class="metadata-item rating">{{movie_detail.imdbRating}}</span>
+                </div>
+
+                <p class="movie-plot">
+                    {{movie_detail.plot}}
+                </p>
+
+                <div class="">
+                    <span class="genre-tag" *ngFor="let genre of genre_list">{{genre}}</span>
+                </div>
+
+                <div class="">
+                    <span class="language-tag" *ngFor="let language of language_list; let i = index"
+                        [class.active]="i===0">{{language}}</span>
+                </div>
+
+                <!-- Actors Details Section -->
+                <h3 class="details-heading">Cast</h3>
+                <p class="details-text">
+                    <ng-container *ngFor="let actor of actors_list; let last = last">
+                        <a (click)="openPersonModal(actor.id, 'actor', personModal)" class="actor-link">{{ actor.name
+                            }}</a><span *ngIf="!last">,
+                        </span>
+                    </ng-container>
+                </p>
+
+                <!-- Directors Details Section -->
+                <h3 class="details-heading">Directors</h3>
+                <p class="details-text">
+                    <a class="actor-link" (click)="openPersonModal(director_list?.id, 'director', personModal)">{{
+                        director_list?.name }}</a><span>
+                    </span>
+                </p>
+
+
+
+                <div class="flex items-center mt-6">
+                    <button class="watch-button-large">
+                        <i class="fas fa-play"></i> Watch Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<ng-template #personModal let-modal>
+
+    <div class="modal-mainwrapper">
+
+
+
+        <div class="content-overlay-modal">
+            <div class="row">
+                <div class="col-11"> </div>
+                <div class="col-1 d-flex justify-content-end align-items-center ">
+                    <i class="fa-solid fa-xmark cancel-icon" (click)="modal.dismiss()"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="show-title">{{selectedPerson?.name}}</h1>
+
+                    <div class="">
+                        <span class="metadata-item">{{ selectedPerson?.birth?.date | date:'dd MMM yyyy' }}</span>
+                        <span class="metadata-item">{{selectedPerson?.birth?.place}}</span>
+                    </div>
+
+                    <p>
+                        {{selectedPerson?.description}}
+                    </p>
+
+                    <h3 class="details-heading">Popular Movies</h3>
+                    <div class="">
+                        <span class="genre-tag popular-movie" 
+                            *ngFor="let movie of movie_list">{{movie}}</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</ng-template>

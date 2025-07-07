@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  # Django backend
+  backend:
+    build:
+      context: ./movie_explorer_backend  # Location of Dockerfile
+    container_name: movie_explorer_backend
+    volumes:
+      - ./movie_explorer_backend:/app  # Mount source code for live changes (dev use)
+    ports:
+      - "8000:8000"  # Host:Container port for backend
+    depends_on:
+      - db  # Wait for PostgreSQL before starting backend
+    environment:
+      - DB_NAME=movie_explorer
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - DB_HOST=db
+      - DB_PORT=5432
+
+  # Angular frontend
+  frontend:
+    build:
+      context: ./movie-explorer-ui  # Location of Angular Dockerfile
+    container_name: movie_explorer_frontend
+    ports:
+      - "4200:80"  # Host:Container (Angular served by Nginx)
+    depends_on:
+      - backend  # Wait for backend before starting UI
+
+  # PostgreSQL Database
+  db:
+    image: postgres:14
+    container_name: movie_explorer_db
+    environment:
+      POSTGRES_DB: movie_explorer
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persist DB data
+    ports:
+      - "5432:5432"  # Expose DB port (optional)
+
+# Named volume to persist PostgreSQL data
+volumes:
+  postgres_data:

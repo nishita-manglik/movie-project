@@ -1,0 +1,555 @@
+[
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 2,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 2,
+            "genre": 2
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 3,
+            "genre": 3
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 3,
+            "genre": 4
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 4,
+            "genre": 5
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 4,
+            "genre": 6
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 5,
+            "genre": 7
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 5,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 6,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 6,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 6,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 7,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 7,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 8,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 8,
+            "genre": 10
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 8,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 9,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 9,
+            "genre": 11
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 9,
+            "genre": 4
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 10,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 10,
+            "genre": 6
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 11,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 12,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 12,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 12,
+            "genre": 7
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 13,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 13,
+            "genre": 3
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 13,
+            "genre": 4
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 14,
+            "genre": 10
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 14,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 15,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 15,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 15,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 16,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 16,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 16,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 17,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 17,
+            "genre": 2
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 18,
+            "genre": 7
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 18,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 18,
+            "genre": 4
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 19,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 19,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 19,
+            "genre": 11
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 20,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 20,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 20,
+            "genre": 13
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 21,
+            "genre": 7
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 21,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 21,
+            "genre": 11
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 22,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 22,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 22,
+            "genre": 4
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 23,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 23,
+            "genre": 14
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 23,
+            "genre": 15
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 24,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 24,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 24,
+            "genre": 3
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 25,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 25,
+            "genre": 11
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 26,
+            "genre": 9
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 26,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 27,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 27,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 27,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 28,
+            "genre": 8
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 28,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 28,
+            "genre": 11
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 29,
+            "genre": 7
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 29,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 30,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 30,
+            "genre": 6
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 30,
+            "genre": 2
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 31,
+            "genre": 12
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 31,
+            "genre": 1
+        }
+    },
+    {
+        "model": "dbmodels.MovieGenre",
+        "fields": {
+            "movie": 31,
+            "genre": 11
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+  { "model": "dbmodels.genre", "fields": { "name": "Drama" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Romance" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Mystery" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Thriller" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Game-Show" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Music" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Comedy" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Action" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Crime" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Biography" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Sci-Fi" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Adventure" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Fantasy" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Musical" } },
+  { "model": "dbmodels.genre", "fields": { "name": "Sport" } }
+]

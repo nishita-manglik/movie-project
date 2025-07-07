@@ -1,0 +1,167 @@
+<!-- Loader -->
+<div *ngIf="isLoading" class="loader-overlay">
+    <div class="spinner"></div>
+</div>
+<nav class="p-3 nav-bar">
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+
+            <!-- Logo Section -->
+            <div class="d-flex align-items-center">
+                <span class="text-white main-heading">Movies</span>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-input-wrapper ">
+                <i class="fa-solid fa-search search-icon"></i>
+                <input type="text" placeholder="Search..." class="search-input w-100" (input)="onSearch($event)"
+                    [(ngModel)]="searchedMovie">
+            </div>
+
+            <!-- User Icon -->
+            <div class="user-icon">
+                <i class="fa fa-user"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<nav class="p-3 second-nav">
+    <div class="row">
+        <div class="col-3">
+            <div class="flex items-center">
+                <div class="filter-select-wrapper">
+                    <label for="genre-filter" class="filter-label">Genre:</label>
+
+                    <select id="genre-filter" class="filter-select" [(ngModel)]="selectedGenre"
+                        (change)="onGenreChange($event)">
+                        <option [value]="0">All</option>
+                        <option *ngFor="let genre of genre_list" [value]="genre.id">{{ genre.name }}</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="flex items-center filter-container-actor">
+                <label class="filter-label">Actor:</label>
+                <i class="fa-solid fa-search search-icon-actor"></i>
+                <input type="text" placeholder="Enter actor name" class="filter-input" [(ngModel)]="searchedActor"
+                    (input)="onSearchByActor($event)">
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="flex items-center filter-container-director">
+                <label for="director-filter" class="filter-label">Director:</label>
+                <i class="fa-solid fa-search search-icon-director"></i>
+                <input type="text" id="director-filter" placeholder="Enter director name" class="filter-input"
+                    [(ngModel)]="searchedDirector" (input)="onSearchByDirector($event)">
+            </div>
+        </div>
+    </div>
+</nav>
+<div class=" mainwrapper">
+
+    <div *ngIf="movie_data.length === 0 " class=" mainwrapper-frame">
+        <span>No movies found for "{{ search_value }}".</span>
+    </div>
+    <div *ngIf="!isFilter; else topResult" class="mainwrapper-frame">
+
+
+        <!-- Trending Movies Section -->
+        <div class="row movie-headers">
+            <span class="text-white second-heading">Trending Movies</span>
+        </div>
+
+        <div class="row">
+            <div class="col-3 movie-cards-section" *ngFor="let movie of trending_movies">
+
+                <div class="movie-card">
+                    <div class="movie-card-container">
+                        <div [style.background-image]="'url('+ movie.poster+')'" class="image-container">
+                            <div class="rate-chip-component">
+                                <i class=" far fa-star star-icon"></i>
+                                <span>{{movie.imdbRating}}</span>
+                            </div>
+                            <div class="hover-button-wrapper">
+                                <button class="view-button2" (click)="movie_detail(movie.id)">View details</button>
+                            </div>
+                        </div>
+                        <p class="name">{{movie.title}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- <div class="movie-cards-section">
+            <div class="movie-card" *ngFor="let movie of trending_movies">
+                <div class="movie-card-container">
+                    <div [style.background-image]="'url('+ movie.poster+')'" class="image-container">
+                        <div class="rate-chip-component">
+                            <i class="far fa-star star-icon"></i>
+                            <span>{{movie.imdbRating}}</span>
+                        </div>
+                        <div class="hover-button-wrapper">
+                            <button class="view-button2" (click)="movie_detail(movie.id)">
+                                View details
+                            </button>
+                        </div>
+                    </div>
+                    <p class="name">{{movie.title}}</p>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <!-- Top rated Movies Section -->
+        <div class="row movie-header">
+            <span class="text-white second-heading">Latest Releases</span>
+        </div>
+        <div class="row">
+            <div class="col-4 movie-container" *ngFor="let movie of movie_data">
+                <div class="card ">
+                    <img src={{movie.poster}} class="card-image" alt="Movie poster">
+                    <div class="card-overlay">
+                        <h3 class="text-3xl font-bold mb-2">{{movie.title}}</h3>
+                        <div class="flex items-center text-sm mb-4">
+                            <span class="mr-2">{{movie.year}}</span>
+                        </div>
+                        <div class="hover-button2-wrapper">
+                            <button class="view-button2" (click)="movie_detail(movie.id)">View details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ng-template #topResult>
+        <div class="row mainwrapper-frame">
+            <div class="col-3 movie-cards-section" *ngFor="let movie of movie_data">
+
+                <div class="movie-card">
+                    <div class="movie-card-container">
+                        <div [style.background-image]="'url('+ movie.poster+')'" class="image-container">
+                            <div class="rate-chip-component">
+                                <i class=" far fa-star star-icon"></i>
+                                <span>{{movie.imdbRating}}</span>
+                            </div>
+                            <div class="hover-button-wrapper">
+                                <button class="view-button2" (click)="movie_detail(movie.id)">View details</button>
+                            </div>
+                        </div>
+                        <p class="name">{{movie.title}}</p>
+                        <!-- <span class="mr-2 name">{{movie.year}}</span> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </ng-template>
+
+
+
+</div>

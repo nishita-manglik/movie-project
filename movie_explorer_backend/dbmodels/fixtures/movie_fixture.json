@@ -1,0 +1,591 @@
+[
+  {
+    "model": "dbmodels.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Forrest Gump",
+      "year": "1994",
+      "rated": "PG-13",
+      "released": "1994-07-06",
+      "runtime": "142 min",
+      "plot": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Won 6 Oscars. 51 wins & 74 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.8,
+      "box_office": "$330,455,270",
+      "director": 21
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Titanic",
+      "year": "1997",
+      "rated": "PG-13",
+      "released": "1997-12-19",
+      "runtime": "194 min",
+      "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "language": "English, Swedish, Italian, French",
+      "country": "United States",
+      "awards": "Won 11 Oscars. 126 wins & 83 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 7.9,
+      "box_office": "$674,354,882",
+      "director": 8
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Kahaani",
+      "year": "2012",
+      "rated": "Not Rated",
+      "released": "2012-03-09",
+      "runtime": "122 min",
+      "plot": "A pregnant woman's search for her missing husband takes her from London to Kolkata, but everyone she questions denies having ever met him.",
+      "language": "Hindi",
+      "country": "India",
+      "awards": "27 wins & 29 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NDI0NzkyOF5BMl5BanBnXkFtZTcwNzAyNzE2Nw@@._V1_SX300.jpg",
+      "imdb_rating": 8.1,
+      "box_office": "N/A",
+      "director": 25
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Taare Zameen Par",
+      "year": "2020\u2013",
+      "rated": "N/A",
+      "released": "2020-11-02",
+      "runtime": "N/A",
+      "plot": "Aspiring young singers from all over India showcase their talents under the mentorship of prominent artists to impress the judges.",
+      "language": "Hindi",
+      "country": "India",
+      "awards": "N/A",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzE4NmNmZGItYTUxOS00ZDRlLWI0NjktOTYxOWNlMDE1MzRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 7.0,
+      "box_office": "",
+      "director": 1
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Piku",
+      "year": "2015",
+      "rated": "Not Rated",
+      "released": "2015-05-08",
+      "runtime": "123 min",
+      "plot": "A quirky comedy about the relationship between a daughter and her aging father, whose eccentricities drive everyone crazy.",
+      "language": "Hindi",
+      "country": "India",
+      "awards": "40 wins & 34 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUwOTMxNjc2OV5BMl5BanBnXkFtZTgwODQ4OTMxNTE@._V1_SX300.jpg",
+      "imdb_rating": 7.6,
+      "box_office": "$1,801,807",
+      "director": 23
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Ugramm",
+      "year": "2014",
+      "rated": "N/A",
+      "released": "2014-02-21",
+      "runtime": "132 min",
+      "plot": "A man with a dangerous past must protect a girl from those who are hell bent on killing her.",
+      "language": "Kannada",
+      "country": "India",
+      "awards": "3 wins & 11 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc2MDkwNzk3OF5BMl5BanBnXkFtZTgwMTQ3NTcyMTE@._V1_SX300.jpg",
+      "imdb_rating": 8.1,
+      "box_office": "N/A",
+      "director": 16
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Pulp Fiction",
+      "year": "1994",
+      "rated": "R",
+      "released": "1994-10-14",
+      "runtime": "154 min",
+      "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "language": "English, Spanish, French",
+      "country": "United States",
+      "awards": "Won 1 Oscar. 69 wins & 72 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.8,
+      "box_office": "$107,928,762",
+      "director": 17
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Dangal",
+      "year": "2016",
+      "rated": "Not Rated",
+      "released": "2016-12-21",
+      "runtime": "161 min",
+      "plot": "Mahavir Singh Phogat, a former wrestler, decides to fulfill his dream of winning a gold medal for his country by training his daughters for the Commonwealth Games despite the existing social stigmas.",
+      "language": "Hindi, English",
+      "country": "India, United States",
+      "awards": "41 wins & 38 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg",
+      "imdb_rating": 8.3,
+      "box_office": "$12,391,761",
+      "director": 13
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Lucia",
+      "year": "2013",
+      "rated": "Not Rated",
+      "released": "2013-09-06",
+      "runtime": "135 min",
+      "plot": "A man suffering from insomnia is tricked into buying a drug, Lucia, that makes his desires come true in his dreams, blurring the line between fantasy and reality.",
+      "language": "Kannada",
+      "country": "India",
+      "awards": "4 wins & 3 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQyMDA5ODkzN15BMl5BanBnXkFtZTgwMjIzMDkyMDE@._V1_SX300.jpg",
+      "imdb_rating": 8.3,
+      "box_office": "N/A",
+      "director": 14
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Whiplash",
+      "year": "2014",
+      "rated": "R",
+      "released": "2014-10-15",
+      "runtime": "106 min",
+      "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Won 3 Oscars. 99 wins & 144 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFjOWFkYzktYzhhMC00NmYyLTkwY2EtYjViMDhmNzg0OGFkXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.5,
+      "box_office": "$14,003,391",
+      "director": 4
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "year": "1994",
+      "rated": "R",
+      "released": "1994-10-14",
+      "runtime": "142 min",
+      "plot": "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Nominated for 7 Oscars. 21 wins & 42 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 9.3,
+      "box_office": "$28,767,189",
+      "director": 7
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Avane Srimannarayana",
+      "year": "2019",
+      "rated": "Not Rated",
+      "released": "2019-12-27",
+      "runtime": "186 min",
+      "plot": "In the pursuit of solving an ancient mystery of Amaravati, Narayana, a corrupt cop must battle the dangerous clan of dacoits and it's fierce leader.",
+      "language": "Kannada",
+      "country": "India",
+      "awards": "1 win & 3 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmFlOWIwMzYtMTJkYy00NjhkLWEwOTEtODY0ZjVlMGFmMDg5XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 7.7,
+      "box_office": "N/A",
+      "director": 22
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Andhadhun",
+      "year": "2018",
+      "rated": "Not Rated",
+      "released": "2018-10-05",
+      "runtime": "139 min",
+      "plot": "A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.",
+      "language": "Hindi, English",
+      "country": "India",
+      "awards": "35 wins & 43 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjZiYTNkNjUtNzI3MC00YWJmLTljM2QtNTI3MTU3ODYzNWFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.2,
+      "box_office": "$1,193,046",
+      "director": 24
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 14,
+    "fields": {
+      "title": "The Social Network",
+      "year": "2010",
+      "rated": "PG-13",
+      "released": "2010-10-01",
+      "runtime": "120 min",
+      "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
+      "language": "English, French",
+      "country": "United States",
+      "awards": "Won 3 Oscars. 174 wins & 188 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 7.8,
+      "box_office": "$96,962,694",
+      "director": 5
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 15,
+    "fields": {
+      "title": "The Dark Knight",
+      "year": "2008",
+      "rated": "PG-13",
+      "released": "2008-07-18",
+      "runtime": "152 min",
+      "plot": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
+      "language": "English, Mandarin",
+      "country": "United States, United Kingdom",
+      "awards": "Won 2 Oscars. 164 wins & 165 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "imdb_rating": 9.0,
+      "box_office": "$534,987,076",
+      "director": 3
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Gladiator",
+      "year": "2000",
+      "rated": "R",
+      "released": "2000-05-05",
+      "runtime": "155 min",
+      "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "language": "English",
+      "country": "United States, United Kingdom, Malta, Morocco",
+      "awards": "Won 5 Oscars. 60 wins & 104 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.5,
+      "box_office": "$187,705,427",
+      "director": 19
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Dia",
+      "year": "2020",
+      "rated": "Not Rated",
+      "released": "2020-02-07",
+      "runtime": "137 min",
+      "plot": "Dia takes three years to confess her feelings to Rohith but after a terrible accident, she is told he does not survive. Later, when she starts seeing Adi, she finds out that Rohith is still alive.",
+      "language": "Kannada, English",
+      "country": "India",
+      "awards": "1 win",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDkyNGE1OWEtZDg0ZC00MThjLThlYmYtNDhiNGNjMzQ1ZTcyXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.0,
+      "box_office": "N/A",
+      "director": 10
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Bell Bottom",
+      "year": "2019",
+      "rated": "N/A",
+      "released": "2019-02-22",
+      "runtime": "130 min",
+      "plot": "Police constable Divakar finally gets a chance to fulfill his childhood dream of becoming a detective when a mysterious robbery takes place at the local police station.",
+      "language": "Kannada",
+      "country": "India",
+      "awards": "3 wins",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc4ODA2MjQyMF5BMl5BanBnXkFtZTgwMTY3MDI1NzM@._V1_SX300.jpg",
+      "imdb_rating": 8.2,
+      "box_office": "N/A",
+      "director": 9
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Avengers: Endgame",
+      "year": "2019",
+      "rated": "PG-13",
+      "released": "2019-04-26",
+      "runtime": "181 min",
+      "plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "language": "English, Japanese, Xhosa, German",
+      "country": "United States",
+      "awards": "Nominated for 1 Oscar. 70 wins & 133 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+      "imdb_rating": 8.4,
+      "box_office": "$858,373,000",
+      "director": 1
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 20,
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": "2003",
+      "rated": "PG-13",
+      "released": "2003-12-17",
+      "runtime": "201 min",
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "language": "English, Quenya, Old English, Sindarin",
+      "country": "New Zealand, United States",
+      "awards": "Won 11 Oscars. 215 wins & 124 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 9.0,
+      "box_office": "$381,878,219",
+      "director": 15
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 21,
+    "fields": {
+      "title": "PK",
+      "year": "2014",
+      "rated": "Not Rated",
+      "released": "2014-12-19",
+      "runtime": "153 min",
+      "plot": "An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of religious views on people.",
+      "language": "Hindi",
+      "country": "India",
+      "awards": "22 wins & 26 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_SX300.jpg",
+      "imdb_rating": 8.1,
+      "box_office": "$10,616,104",
+      "director": 18
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 22,
+    "fields": {
+      "title": "Fight Club",
+      "year": "1999",
+      "rated": "R",
+      "released": "1999-10-15",
+      "runtime": "139 min",
+      "plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "language": "English",
+      "country": "Germany, United States",
+      "awards": "Nominated for 1 Oscar. 12 wins & 38 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.8,
+      "box_office": "$37,030,102",
+      "director": 5
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 23,
+    "fields": {
+      "title": "Lagaan: Once Upon a Time in India",
+      "year": "2001",
+      "rated": "PG",
+      "released": "2001-06-15",
+      "runtime": "224 min",
+      "plot": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.",
+      "language": "Hindi, English",
+      "country": "India, United States",
+      "awards": "Nominated for 1 Oscar. 54 wins & 22 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2FmODM4OTktOTRjOS00ZTIzLWIzZjAtMDBhOGEzYThkNzMzXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.1,
+      "box_office": "$909,043",
+      "director": 2
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 24,
+    "fields": {
+      "title": "Drishyam",
+      "year": "2015",
+      "rated": "Not Rated",
+      "released": "2015-07-31",
+      "runtime": "163 min",
+      "plot": "Desperate measures are taken by a man who tries to save his family from the dark side of the law, after they commit an unexpected crime.",
+      "language": "Hindi, English",
+      "country": "India",
+      "awards": "2 wins & 8 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2NmMGFjYTYtNWEwNS00MTM4LWE2ZTktNzZjMTE0OTQyNjFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.2,
+      "box_office": "N/A",
+      "director": 12
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 25,
+    "fields": {
+      "title": "The Matrix",
+      "year": "1999",
+      "rated": "R",
+      "released": "1999-03-31",
+      "runtime": "136 min",
+      "plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "language": "English",
+      "country": "United States, Australia",
+      "awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.7,
+      "box_office": "$172,076,928",
+      "director": 11
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 26,
+    "fields": {
+      "title": "The Godfather",
+      "year": "1972",
+      "rated": "R",
+      "released": "1972-03-24",
+      "runtime": "175 min",
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "language": "English, Italian, Latin",
+      "country": "United States",
+      "awards": "Won 3 Oscars. 31 wins & 31 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 9.2,
+      "box_office": "$136,381,073",
+      "director": 6
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 27,
+    "fields": {
+      "title": "Kantara",
+      "year": "2022",
+      "rated": "Not Rated",
+      "released": "2022-09-30",
+      "runtime": "148 min",
+      "plot": "When greed paves the way for betrayal, scheming and murder, a young tribal reluctantly dons the traditions of his ancestors to seek justice.",
+      "language": "Kannada",
+      "country": "India",
+      "awards": "21 wins & 14 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2VkZjk5ZjMtM2ExOS00ZDA1LTg1ZDEtYTliNGZiYTc4ZWZiXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.2,
+      "box_office": "N/A",
+      "director": 20
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 28,
+    "fields": {
+      "title": "Inception",
+      "year": "2010",
+      "rated": "PG-13",
+      "released": "2010-07-16",
+      "runtime": "148 min",
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "language": "English, Japanese, French",
+      "country": "United States, United Kingdom",
+      "awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "imdb_rating": 8.8,
+      "box_office": "$292,587,330",
+      "director": 3
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 29,
+    "fields": {
+      "title": "3 Idiots",
+      "year": "2009",
+      "rated": "PG-13",
+      "released": "2009-12-25",
+      "runtime": "170 min",
+      "plot": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+      "language": "Hindi, English",
+      "country": "India",
+      "awards": "64 wins & 30 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzc4ZWQ3NmYtODE0Ny00YTQ4LTlkZWItNTBkMGQ0MmUwMmJlXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.4,
+      "box_office": "$6,532,874",
+      "director": 18
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Gully Boy",
+      "year": "2019",
+      "rated": "Not Rated",
+      "released": "2019-02-14",
+      "runtime": "154 min",
+      "plot": "A coming-of-age story based on the lives of street rappers in Mumbai.",
+      "language": "Hindi, English",
+      "country": "India",
+      "awards": "76 wins & 67 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWFkY2M3NDctZGEzMS00M2VmLTgzMTAtZWFiNjVmZDc5NWFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 7.9,
+      "box_office": "$5,566,534",
+      "director": 26
+    }
+  },
+  {
+    "model": "dbmodels.movie",
+    "pk": 31,
+    "fields": {
+      "title": "Interstellar",
+      "year": "2014",
+      "rated": "PG-13",
+      "released": "2014-11-07",
+      "runtime": "169 min",
+      "plot": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+      "language": "English",
+      "country": "United States, United Kingdom, Canada",
+      "awards": "Won 1 Oscar. 44 wins & 148 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdb_rating": 8.7,
+      "box_office": "$203,227,580",
+      "director": 3
+    }
+  }
+]

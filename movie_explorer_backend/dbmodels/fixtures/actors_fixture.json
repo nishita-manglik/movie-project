@@ -1,0 +1,1010 @@
+[
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Aakriti Sharma",
+      "birth": {
+        "date": "2011-09-08",
+        "place": "Haryana, India"
+      },
+      "description": "Aakriti Sharma is an Indian child actress best known for her debut role as Kulfi in the TV musical series Kullfi Kumarr Bajewala. She has also appeared in ad films, hosted children’s reality shows, and received the Indian Television Academy Award for Best Child Artist in 2018.",
+      "popular_movies": "TV: Kullfi Kumarr Bajewala, Paapnaashini Ganga, Hosting: Taare Zameen Par"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Aamir Khan",
+      "birth": {
+        "date": "1965-03-14",
+        "place": "Bombay (now Mumbai), Maharashtra, India"
+      },
+      "description": "Aamir Khan is an Indian actor, filmmaker, and television personality known for his method acting and socially conscious cinema. Dubbed 'Mr. Perfectionist', he’s a major force in Hindi cinema since the late 1980s and has produced iconic films through Aamir Khan Productions.",
+      "popular_movies": "Qayamat Se Qayamat Tak, Lagaan, Taare Zameen Par, 3 Idiots, Dangal"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Aaron Eckhart",
+      "birth": {
+        "date": "1968-03-12",
+        "place": "Cupertino, California, U.S."
+      },
+      "description": "Aaron Eckhart is an American actor known for his versatility and depth. He gained prominence with roles like George in Erin Brockovich, received praise and a Golden Globe nomination for Thank You for Smoking, and reached mainstream fame as Harvey Dent/Two-Face in The Dark Knight.",
+      "popular_movies": "In the Company of Men, Erin Brockovich, Thank You for Smoking, The Dark Knight, Olympus Has Fallen"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Achyuth Kumar",
+      "birth": {
+        "date": "1966-03-08",
+        "place": "Tumkur (near Tiptur), Karnataka, India"
+      },
+      "description": "Achyuth Kumar is an acclaimed Indian character actor in Kannada cinema, with roles in Tamil, Telugu, and Malayalam films as well. A recipient of three Filmfare Awards and two Karnataka State Film Awards, he's celebrated for powerful performances in Lucia, Kantara, and the KGF series.",
+      "popular_movies": "Aa Dinagalu, Lucia, Sidlingu, KGF: Chapter 1, Kantara"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Ajay Devgn",
+      "birth": {
+        "date": "1969-04-02",
+        "place": "New Delhi, Delhi, India"
+      },
+      "description": "Ajay Devgn (born Vishal Veeru Devgan) is an Indian actor, director, and producer, a leading figure in Hindi cinema with over 100 films. He’s won multiple National and Filmfare Awards, received the Padma Shri in 2016, and is known for roles in action dramas and historical films.",
+      "popular_movies": "Phool Aur Kaante, Hum Dil De Chuke Sanam, The Legend of Bhagat Singh, Singham, Tanhaji"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Al Pacino",
+      "birth": {
+        "date": "1940-04-25",
+        "place": "New York City, New York, U.S."
+      },
+      "description": "Al Pacino is an American acting legend whose intense, charismatic performances in films like The Godfather trilogy, Scarface, and Scent of a Woman have earned him an enduring place among Hollywood greats.",
+      "popular_movies": "The Godfather, Scarface, Serpico, Scent of a Woman, Heat"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Alia Bhatt",
+      "birth": {
+        "date": "1993-03-15",
+        "place": "Bombay (now Mumbai), Maharashtra, India"
+      },
+      "description": "Alia Bhatt is an Indian-British actress and producer renowned for her versatility. She debuted in Student of the Year (2012) and earned critical acclaim in films like Highway and Raazi. She’s also a fashion icon, mental health advocate, and one of the most influential young actors in India today.",
+      "popular_movies": "Student of the Year, Highway, 2 States, Udta Punjab, Gangubai Kathiawadi"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Amitabh Bachchan",
+      "birth": {
+        "date": "1942-10-11",
+        "place": "Allahabad (now Prayagraj), Uttar Pradesh, India"
+      },
+      "description": "Amitabh Bachchan, widely known as 'Big B' and the 'Shahenshah of Bollywood', is an iconic Indian actor, playback singer, producer, and television host. He rose to fame in the 1970s as the ‘angry young man’ of Hindi cinema and has earned numerous national and international honours during his six-decade career.",
+      "popular_movies": "Zanjeer, Sholay, Deewar, Paa, Black"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Andrew Garfield",
+      "birth": {
+        "date": "1983-08-20",
+        "place": "Los Angeles, California, U.S."
+      },
+      "description": "Andrew Garfield is an American-British actor known for his stage and screen work. He earned acclaim starring in The Social Network and rose to worldwide fame as Spider-Man in The Amazing Spider-Man films. His performance in Tick, Tick… Boom! earned him a Golden Globe and an Oscar nomination.",
+      "popular_movies": "The Social Network, The Amazing Spider-Man, Hacksaw Ridge, Tick, Tick… Boom!, Silence"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Anne Hathaway",
+      "birth": {
+        "date": "1982-11-12",
+        "place": "Brooklyn, New York City, New York, U.S."
+      },
+      "description": "Anne Hathaway is an American actress and producer known for her wide range of roles—from romantic comedies like The Devil Wears Prada to dramatic turns in Les Misérables, for which she won an Oscar. She is celebrated for her grace and commitment to her craft.",
+      "popular_movies": "The Princess Diaries, The Devil Wears Prada, Les Misérables, Interstellar, The Dark Knight Rises"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Anushka Sharma",
+      "birth": {
+        "date": "1988-05-01",
+        "place": "Ayodhya, Uttar Pradesh, India"
+      },
+      "description": "Anushka Sharma is an Indian actress, film producer, and entrepreneur who began her career opposite Shah Rukh Khan in Rab Ne Bana Di Jodi (2008). Known for her modern and strong-willed characters, she has starred in diverse hits and founded her production house, Clean Slate Films.",
+      "popular_movies": "Rab Ne Bana Di Jodi, Band Baaja Baaraat, PK, Sultan, Chakda 'Xpress'"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Ayushmann Khurrana",
+      "birth": {
+        "date": "1984-09-14",
+        "place": "Chandigarh, India"
+      },
+      "description": "Ayushmann Khurrana is an Indian actor, singer, and former TV host acclaimed for choosing unconventional roles. He debuted with Vicky Donor (2012) and has since tackled taboo subjects through films like Dum Laga Ke Haisha, Article 15, and Badhaai Ho.",
+      "popular_movies": "Vicky Donor, Dum Laga Ke Haisha, Article 15, Andhadhun, Badhaai Ho"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Billy Zane",
+      "birth": {
+        "date": "1966-02-24",
+        "place": "Chicago, Illinois, U.S."
+      },
+      "description": "Billy Zane is an American actor and producer best known for playing the charming but treacherous Cal Hockley in James Cameron’s Titanic. He has appeared in several genre films and series, including The Phantom and Twin Peaks.",
+      "popular_movies": "Titanic, The Phantom, Zoolander, Dead Calm, Twin Peaks: Fire Walk with Me"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Bob Gunton",
+      "birth": {
+        "date": "1945-11-15",
+        "place": "Santa Monica, California, U.S."
+      },
+      "description": "Bob Gunton is an American actor renowned for his commanding presence and baritone voice. He earned widespread recognition as the corrupt warden Samuel Norton in The Shawshank Redemption and has had strong supporting roles in film, TV, and theatre.",
+      "popular_movies": "The Shawshank Redemption, Demolition Man, Argo, Speed, Evita"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Brad Pitt",
+      "birth": {
+        "date": "1963-12-18",
+        "place": "Shawnee, Oklahoma, U.S."
+      },
+      "description": "Brad Pitt is an Oscar-winning American actor and producer. A global superstar known for striking roles in films like Fight Club, Once Upon a Time in Hollywood, and Inglourious Basterds, he has also achieved success as a producer with Plan B Entertainment.",
+      "popular_movies": "Fight Club, Se7en, Inglourious Basterds, Once Upon a Time in Hollywood, World War Z"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Carrie-Anne Moss",
+      "birth": {
+        "date": "1967-08-21",
+        "place": "Burnaby, British Columbia, Canada"
+      },
+      "description": "Carrie-Anne Moss is a Canadian actress best known for her iconic role as Trinity in The Matrix trilogy. With a career spanning over 30 years, she continues to appear in film and television, including the TV series Jessica Jones.",
+      "popular_movies": "The Matrix, Memento, Disturbia, Snow Cake, Jessica Jones"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Chris Evans",
+      "birth": {
+        "date": "1981-06-13",
+        "place": "Boston, Massachusetts, U.S."
+      },
+      "description": "Chris Evans is an American actor best known for his role as Captain America in the Marvel Cinematic Universe. He has also starred in diverse genres, from romantic comedies to thrillers, earning acclaim for his versatility.",
+      "popular_movies": "Captain America: The First Avenger, Avengers series, Snowpiercer, Knives Out, Gifted"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Christian Bale",
+      "birth": {
+        "date": "1974-01-30",
+        "place": "Haverfordwest, Pembrokeshire, Wales, U.K."
+      },
+      "description": "Christian Bale is a British actor celebrated for his intense method acting and transformative roles. Known for films like The Dark Knight trilogy and American Psycho, he has won multiple awards including an Academy Award.",
+      "popular_movies": "The Dark Knight trilogy, American Psycho, The Fighter, Ford v Ferrari, Vice"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Connie Nielsen",
+      "birth": {
+        "date": "1965-07-03",
+        "place": "Frederiksberg, Copenhagen, Denmark"
+      },
+      "description": "Connie Nielsen is a Danish actress known internationally for her roles in Gladiator and Wonder Woman. She has worked extensively in European cinema and American productions.",
+      "popular_movies": "Gladiator, Wonder Woman, The Devil's Advocate, One Hour Photo, Soldier"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Deepika Padukone",
+      "birth": {
+        "date": "1986-01-05",
+        "place": "Kolkata, West Bengal, India"
+      },
+      "description": "Deepika Padukone is one of India’s highest-paid actresses and a prominent figure in Bollywood. Known for her performances in both commercial and critically acclaimed films, she is also an advocate for mental health awareness.",
+      "popular_movies": "Om Shanti Om, Chennai Express, Padmaavat, Piku, Cocktail"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Edward Norton",
+      "birth": {
+        "date": "1969-08-18",
+        "place": "Boston, Massachusetts, U.S."
+      },
+      "description": "Edward Norton is an American actor and filmmaker known for his intense and nuanced performances. He received acclaim for roles in Fight Club, American History X, and Birdman.",
+      "popular_movies": "Fight Club, American History X, The Illusionist, Birdman, The Grand Budapest Hotel"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Elijah Wood",
+      "birth": {
+        "date": "1981-01-28",
+        "place": "Cedar Rapids, Iowa, U.S."
+      },
+      "description": "Elijah Wood is an American actor widely recognized for his portrayal of Frodo Baggins in The Lord of the Rings trilogy. He has also appeared in various independent and genre films.",
+      "popular_movies": "The Lord of the Rings trilogy, Eternal Sunshine of the Spotless Mind, Sin City, Wilfred, Green Street Hooligans"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Elliot Page",
+      "birth": {
+        "date": "1987-02-21",
+        "place": "Halifax, Nova Scotia, Canada"
+      },
+      "description": "Elliot Page is a Canadian actor and producer who gained international fame with the film Juno. He is known for his diverse roles and advocacy for LGBTQ+ rights.",
+      "popular_movies": "Juno, Inception, X-Men: Days of Future Past, The Umbrella Academy, Hard Candy"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Fatima Sana Shaikh",
+      "birth": {
+        "date": "1993-01-11",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Fatima Sana Shaikh is an Indian actress known for her breakthrough role as Geeta Phogat in the sports biopic Dangal. She has since appeared in several films in different genres.",
+      "popular_movies": "Dangal, Thugs of Hindostan, Ludo, Suraj Pe Mangal Bhari, Bijli"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Gary Sinise",
+      "birth": {
+        "date": "1955-03-17",
+        "place": "Blue Island, Illinois, U.S."
+      },
+      "description": "Gary Sinise is an American actor, director, and musician. Known for his role as Lieutenant Dan in Forrest Gump, he is also recognized for his extensive support of U.S. military veterans.",
+      "popular_movies": "Forrest Gump, Apollo 13, Ransom, Mission to Mars, George Wallace"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Gracy Singh",
+      "birth": {
+        "date": "1980-07-20",
+        "place": "New Delhi, India"
+      },
+      "description": "Gracy Singh is an Indian actress and classical dancer best known for her roles in Lagaan and Munna Bhai M.B.B.S. She has also appeared in various television and regional film projects.",
+      "popular_movies": "Lagaan, Munna Bhai M.B.B.S., Om Shanti Om, Love You Hamesha, Sankat City"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Haripriya",
+      "birth": {
+        "date": "1991-06-29",
+        "place": "Bangalore, Karnataka, India"
+      },
+      "description": "Haripriya is an Indian actress predominantly working in Kannada and Telugu cinema. Known for her expressive acting and strong screen presence, she has appeared in several commercially successful films.",
+      "popular_movies": "Ugramm, Ranna, Chowka, Neer Dose, Gentleman"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Heath Ledger",
+      "birth": {
+        "date": "1979-04-04",
+        "place": "Perth, Western Australia, Australia"
+      },
+      "description": "Heath Ledger was an acclaimed Australian actor and director known for his intense performances. He received a posthumous Academy Award for his portrayal of the Joker in The Dark Knight.",
+      "popular_movies": "Brokeback Mountain, The Dark Knight, 10 Things I Hate About You, A Knight’s Tale, Monster’s Ball"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Ian McKellen",
+      "birth": {
+        "date": "1939-05-25",
+        "place": "Burnley, Lancashire, England, U.K."
+      },
+      "description": "Sir Ian McKellen is a celebrated English actor known for his work in theater and film. Famous for roles such as Gandalf in The Lord of the Rings and Magneto in the X-Men series, he is a prominent advocate for LGBTQ+ rights.",
+      "popular_movies": "The Lord of the Rings trilogy, X-Men series, Gods and Monsters, Richard III, Apt Pupil"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Indraneil Sengupta",
+      "birth": {
+        "date": "1974-11-08",
+        "place": "Kolkata, West Bengal, India"
+      },
+      "description": "Indraneil Sengupta is an Indian actor and model, primarily working in Bengali and Hindi films. He is known for his versatile acting skills and has appeared in various films and television shows.",
+      "popular_movies": "1971, Lugun, Shoonya, Shukno Lanka, Iti Mrinalini"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Irrfan Khan",
+      "birth": {
+        "date": "1967-01-07",
+        "place": "Jaipur, Rajasthan, India"
+      },
+      "description": "Irrfan Khan was an Indian actor known for his naturalistic acting style and roles in both Indian and international films. He earned global recognition for films like The Lunchbox and Life of Pi.",
+      "popular_movies": "Paan Singh Tomar, The Lunchbox, Life of Pi, Slumdog Millionaire, Hindi Medium"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "J.K. Simmons",
+      "birth": {
+        "date": "1955-01-09",
+        "place": "Detroit, Michigan, U.S."
+      },
+      "description": "J.K. Simmons is an American actor known for his powerful performances and versatility. He won an Academy Award for his role in Whiplash and has appeared in numerous films and TV series.",
+      "popular_movies": "Whiplash, Juno, Spider-Man trilogy, La La Land, Terminator Genisys"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "James Caan",
+      "birth": {
+        "date": "1940-03-26",
+        "place": "The Bronx, New York City, New York, U.S."
+      },
+      "description": "James Caan was an American actor known for his charismatic presence and roles in classic films. He gained fame for playing Sonny Corleone in The Godfather.",
+      "popular_movies": "The Godfather, Misery, Elf, Brian's Song, Rollerball"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Jesse Eisenberg",
+      "birth": {
+        "date": "1983-10-05",
+        "place": "Queens, New York City, New York, U.S."
+      },
+      "description": "Jesse Eisenberg is an American actor and playwright known for his fast-talking style and roles in films like The Social Network and Now You See Me.",
+      "popular_movies": "The Social Network, Now You See Me, Zombieland, The End of the Tour, Batman v Superman: Dawn of Justice"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Jessica Chastain",
+      "birth": {
+        "date": "1977-03-24",
+        "place": "Sacramento, California, U.S."
+      },
+      "description": "Jessica Chastain is an American actress and producer known for her portrayals of strong and complex women. She has received several award nominations, including Oscars, for films like Zero Dark Thirty and The Help.",
+      "popular_movies": "Zero Dark Thirty, The Help, Interstellar, Molly's Game, The Tree of Life"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Joaquin Phoenix",
+      "birth": {
+        "date": "1974-10-28",
+        "place": "San Juan, Puerto Rico"
+      },
+      "description": "Joaquin Phoenix is an American actor acclaimed for his intense and transformative roles. He won an Academy Award for his portrayal of the Joker in Joker (2019) and is known for films like Gladiator and Walk the Line.",
+      "popular_movies": "Joker, Gladiator, Walk the Line, Her, The Master"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "John Travolta",
+      "birth": {
+        "date": "1954-02-18",
+        "place": "Englewood, New Jersey, U.S."
+      },
+      "description": "John Travolta is an American actor and singer known for his roles in iconic films of the 1970s and beyond. He gained fame through Saturday Night Fever and Grease and has had a varied career in film and television.",
+      "popular_movies": "Saturday Night Fever, Grease, Pulp Fiction, Face/Off, Hairspray"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Joseph Gordon-Levitt",
+      "birth": {
+        "date": "1981-02-17",
+        "place": "Los Angeles, California, U.S."
+      },
+      "description": "Joseph Gordon-Levitt is an American actor, filmmaker, and entrepreneur. He started as a child actor and is known for his roles in 500 Days of Summer, Inception, and as the founder of the online platform HITRECORD.",
+      "popular_movies": "500 Days of Summer, Inception, Looper, The Dark Knight Rises, 50/50"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Justin Timberlake",
+      "birth": {
+        "date": "1981-01-31",
+        "place": "Memphis, Tennessee, U.S."
+      },
+      "description": "Justin Timberlake is an American singer, songwriter, actor, and record producer. Rising to fame with *NSYNC, he successfully transitioned into a solo music career and acting, known for his roles in films and his music artistry.",
+      "popular_movies": "The Social Network, Friends with Benefits, Trolls, Inside Llewyn Davis, Palmer"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Kate Winslet",
+      "birth": {
+        "date": "1975-10-05",
+        "place": "Reading, Berkshire, England, U.K."
+      },
+      "description": "Kate Winslet is an English actress acclaimed for her work in period dramas and intense performances. She rose to global fame with Titanic and has won multiple awards including an Academy Award and several Emmys.",
+      "popular_movies": "Titanic, Eternal Sunshine of the Spotless Mind, The Reader, Steve Jobs, Revolutionary Road"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Keanu Reeves",
+      "birth": {
+        "date": "1964-09-02",
+        "place": "Beirut, Lebanon"
+      },
+      "description": "Keanu Reeves is a Canadian actor known for his roles in action films and cult classics. He gained international fame with The Matrix trilogy and John Wick series, celebrated for his humility and kindness off-screen.",
+      "popular_movies": "The Matrix trilogy, John Wick series, Speed, Point Break, Constantine"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Kishore Kumar G.",
+      "birth": {
+        "date": null,
+        "place": "India"
+      },
+      "description": "Kishore Kumar G. is an Indian film director and screenwriter primarily known for his work in Kannada cinema. His films often explore social themes with a unique narrative style.",
+      "popular_movies": "Dollu, Hadineelentu, and other regional films"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Kushee Ravi",
+      "birth": {
+        "date": "1996-05-08",
+        "place": "Bangalore, Karnataka, India"
+      },
+      "description": "Kushee Ravi is an Indian actress known for her work in Kannada films and web series. She gained recognition for her debut and is growing as a promising talent in the industry.",
+      "popular_movies": "Dia, Loose Connection, Aadi Lakshmi Puraana"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Kushi",
+      "birth": {
+        "date": "1999-04-13",
+        "place": "India"
+      },
+      "description": "Kushi is an Indian actress who predominantly works in Telugu and Tamil cinema. She is noted for her youthful roles and rising popularity in South Indian films.",
+      "popular_movies": "Kushi, Adipurush, and others"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Laurence Fishburne",
+      "birth": {
+        "date": "1961-07-30",
+        "place": "Augusta, Georgia, U.S."
+      },
+      "description": "Laurence Fishburne is an American actor, playwright, and producer known for his commanding presence on screen. He is famed for roles in The Matrix trilogy and television series like Hannibal.",
+      "popular_movies": "The Matrix trilogy, John Wick, Boyz n the Hood, What's Love Got to Do with It, Contagion"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Leonardo DiCaprio",
+      "birth": {
+        "date": "1974-11-11",
+        "place": "Los Angeles, California, U.S."
+      },
+      "description": "Leonardo DiCaprio is an American actor and environmental activist known for his versatile roles and intense performances. He has received numerous awards, including an Academy Award for The Revenant.",
+      "popular_movies": "Titanic, Inception, The Revenant, The Wolf of Wall Street, Once Upon a Time in Hollywood"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Madhavan",
+      "birth": {
+        "date": "1970-06-01",
+        "place": "Jamshedpur, Bihar (now Jharkhand), India"
+      },
+      "description": "R. Madhavan is an Indian actor, writer, and filmmaker who has worked across Tamil, Hindi, and other Indian film industries. He is known for his charming screen presence and versatile roles in romantic dramas, thrillers, and biopics.",
+      "popular_movies": "Rehnaa Hai Terre Dil Mein, Rang De Basanti, Tanu Weds Manu, Vikram Vedha, Rocketry: The Nambi Effect"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Mark Ruffalo",
+      "birth": {
+        "date": "1967-11-22",
+        "place": "Kenosha, Wisconsin, U.S."
+      },
+      "description": "Mark Ruffalo is an American actor and activist best known for playing Bruce Banner/The Hulk in the Marvel Cinematic Universe. He has also been critically acclaimed for roles in dramas like Spotlight and The Kids Are All Right.",
+      "popular_movies": "Spotlight, The Avengers series, The Kids Are All Right, Dark Waters, Zodiac"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Marlon Brando",
+      "birth": {
+        "date": "1924-04-03",
+        "place": "Omaha, Nebraska, U.S."
+      },
+      "description": "Marlon Brando was a legendary American actor widely regarded as one of the greatest of all time. Known for pioneering method acting, he gave iconic performances in films like The Godfather and A Streetcar Named Desire.",
+      "popular_movies": "The Godfather, A Streetcar Named Desire, On the Waterfront, Apocalypse Now, Last Tango in Paris"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Matthew McConaughey",
+      "birth": {
+        "date": "1969-11-04",
+        "place": "Uvalde, Texas, U.S."
+      },
+      "description": "Matthew McConaughey is an American actor and producer known for his charismatic personality and the 'McConaissance' — his transition from romantic comedies to critically acclaimed dramatic roles.",
+      "popular_movies": "Dallas Buyers Club, Interstellar, True Detective (TV), The Lincoln Lawyer, The Wolf of Wall Street"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Meat Loaf",
+      "birth": {
+        "date": "1947-09-27",
+        "place": "Dallas, Texas, U.S."
+      },
+      "description": "Meat Loaf was an American rock singer and actor known for his powerful voice and theatrical performances. He achieved huge success with the Bat Out of Hell album series and also acted in several cult classic films.",
+      "popular_movies": "The Rocky Horror Picture Show, Fight Club, Wayne's World, Black Dog, Spice World"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Melissa Benoist",
+      "birth": {
+        "date": "1988-10-04",
+        "place": "Houston, Texas, U.S."
+      },
+      "description": "Melissa Benoist is an American actress and singer best known for playing the title role in the television series Supergirl. She also appeared in Glee and the Oscar-winning film Whiplash.",
+      "popular_movies": "Whiplash, Supergirl (TV), Glee (TV), Patriots Day, The Longest Ride"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Miles Teller",
+      "birth": {
+        "date": "1987-02-20",
+        "place": "Downingtown, Pennsylvania, U.S."
+      },
+      "description": "Miles Teller is an American actor recognized for his performances in both indie dramas and major blockbusters. He gained acclaim for his role in Whiplash and starred in the box-office hit Top Gun: Maverick.",
+      "popular_movies": "Whiplash, The Spectacular Now, Top Gun: Maverick, War Dogs, Divergent"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Mona Singh",
+      "birth": {
+        "date": "1981-10-08",
+        "place": "Chandigarh, India"
+      },
+      "description": "Mona Singh is an Indian actress and television presenter who became a household name with the hit series Jassi Jaissi Koi Nahin. She has since appeared in films and OTT content with critical acclaim.",
+      "popular_movies": "3 Idiots, Laal Singh Chaddha, Jassi Jaissi Koi Nahin (TV), Yeh Meri Family (Web), Made in Heaven (Web)"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Morgan Freeman",
+      "birth": {
+        "date": "1937-06-01",
+        "place": "Memphis, Tennessee, U.S."
+      },
+      "description": "Morgan Freeman is an iconic American actor, director, and narrator known for his distinctive voice and powerful performances. He has received numerous awards and played roles in some of the most respected films in cinema history.",
+      "popular_movies": "The Shawshank Redemption, Million Dollar Baby, Driving Miss Daisy, Se7en, Invictus"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Parambrata Chattopadhyay",
+      "birth": {
+        "date": "1980-06-27",
+        "place": "Kolkata, West Bengal, India"
+      },
+      "description": "Parambrata Chattopadhyay is an Indian actor and filmmaker known for his work in Bengali cinema and Bollywood. He earned national fame for his role in Kahaani and continues to direct and act in regional and Hindi films.",
+      "popular_movies": "Kahaani, Baishe Srabon, Pari, Hawa Bodol, Anukul"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Pruthvi Ambaar",
+      "birth": {
+        "date": "1988-08-17",
+        "place": "Udupi, Karnataka, India"
+      },
+      "description": "Pruthvi Ambaar is an Indian actor and former radio jockey, known for his work in Kannada and Tulu cinema. He gained widespread recognition for his role in the romantic drama 'Dia'.",
+      "popular_movies": "Dia, Bheema Sena Nala Maharaja, Sugarless, Life is Beautiful, Abbara"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Radhika Apte",
+      "birth": {
+        "date": "1985-09-07",
+        "place": "Vellore, Tamil Nadu, India"
+      },
+      "description": "Radhika Apte is an Indian actress known for her bold and unconventional roles across independent films, OTT platforms, and mainstream cinema. She's celebrated for her performances in psychological and socially relevant dramas.",
+      "popular_movies": "Parched, Andhadhun, Lust Stories, Sacred Games (TV), Raat Akeli Hai"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Raghubir Yadav",
+      "birth": {
+        "date": "1957-06-25",
+        "place": "Jabalpur, Madhya Pradesh, India"
+      },
+      "description": "Raghubir Yadav is a veteran Indian actor, music composer, and singer known for his strong performances in theater, television, and films. His nuanced roles have made him a respected figure in Indian parallel cinema.",
+      "popular_movies": "Lagaan, Peepli Live, Newton, Salaam Bombay!, Panchayat (TV)"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Rakshit Shetty",
+      "birth": {
+        "date": "1983-06-06",
+        "place": "Udupi, Karnataka, India"
+      },
+      "description": "Rakshit Shetty is an Indian actor, director, and screenwriter known for his work in Kannada cinema. He's credited with introducing a new wave of storytelling in Sandalwood with films that blend entertainment and artistry.",
+      "popular_movies": "Ulidavaru Kandanthe, Kirik Party, Avane Srimannarayana, 777 Charlie, Sapta Sagaradaache Ello"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Ranveer Singh",
+      "birth": {
+        "date": "1985-07-06",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Ranveer Singh is a dynamic Indian actor known for his high-energy performances and bold fashion sense. He has played a variety of roles in Bollywood, from historical epics to modern dramas.",
+      "popular_movies": "Band Baaja Baaraat, Bajirao Mastani, Padmaavat, Gully Boy, 83"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Rishab Shetty",
+      "birth": {
+        "date": "1983-07-07",
+        "place": "Kundapura, Karnataka, India"
+      },
+      "description": "Rishab Shetty is an Indian actor and filmmaker in Kannada cinema, known for his work both in front of and behind the camera. He achieved national fame with his directorial and acting venture, Kantara.",
+      "popular_movies": "Kantara, Bell Bottom, Sarkari Hi. Pra. Shaale, Kirik Party, Hero"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Robert Downey Jr.",
+      "birth": {
+        "date": "1965-04-04",
+        "place": "New York City, New York, U.S."
+      },
+      "description": "Robert Downey Jr. is an American actor and producer known for his transformation from a troubled past to one of Hollywood’s highest-paid stars. He’s widely recognized for playing Iron Man in the Marvel Cinematic Universe.",
+      "popular_movies": "Iron Man series, Avengers series, Sherlock Holmes, Chaplin, Oppenheimer"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Robin Wright",
+      "birth": {
+        "date": "1966-04-08",
+        "place": "Dallas, Texas, U.S."
+      },
+      "description": "Robin Wright is an American actress and director best known for her roles in Forrest Gump and House of Cards. She has received acclaim for portraying strong, complex female characters.",
+      "popular_movies": "Forrest Gump, House of Cards (TV), Wonder Woman, The Princess Bride, Blade Runner 2049"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Russell Crowe",
+      "birth": {
+        "date": "1964-04-07",
+        "place": "Wellington, New Zealand"
+      },
+      "description": "Russell Crowe is an Academy Award-winning actor known for his commanding screen presence and intense performances. He rose to international stardom with Gladiator and has delivered powerful roles in drama and action films.",
+      "popular_movies": "Gladiator, A Beautiful Mind, The Insider, Les Misérables, Noah"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sakshi Tanwar",
+      "birth": {
+        "date": "1973-01-12",
+        "place": "Alwar, Rajasthan, India"
+      },
+      "description": "Sakshi Tanwar is an Indian actress known for her work in television and films. She gained massive popularity with TV shows like Kahaani Ghar Ghar Kii and has received acclaim for her roles in films and web series.",
+      "popular_movies": "Dangal, Kahaani Ghar Ghar Kii (TV), Mai (Web), Dial 100, Bade Achhe Lagte Hain (TV)"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Samuel L. Jackson",
+      "birth": {
+        "date": "1948-12-21",
+        "place": "Washington, D.C., U.S."
+      },
+      "description": "Samuel L. Jackson is a legendary American actor known for his distinctive voice and commanding screen presence. He has appeared in over 150 films, making him one of the highest-grossing actors in history.",
+      "popular_movies": "Pulp Fiction, The Avengers series, Django Unchained, Snakes on a Plane, Unbreakable"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sanjay Dutt",
+      "birth": {
+        "date": "1959-07-29",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Sanjay Dutt is a prominent Indian actor known for his roles in action and drama films. Despite personal controversies, he remains a popular figure in Bollywood with a career spanning several decades.",
+      "popular_movies": "Munna Bhai M.B.B.S., Khalnayak, Vaastav, Agneepath, Sadak"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sathish Neenasam",
+      "birth": {
+        "date": "1985-06-20",
+        "place": "Yaladahalli, Karnataka, India"
+      },
+      "description": "Sathish Neenasam is a Kannada film actor known for his natural performances and meaningful film choices. He gained popularity with films that focus on strong narratives and rural life.",
+      "popular_movies": "Lucia, Godhi Banna Sadharana Mykattu, Beautiful Manasugalu, Ayogya, Kapata Nataka Paatradhaari"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Shankar Mahadevan",
+      "birth": {
+        "date": "1967-03-03",
+        "place": "Chembur, Mumbai, Maharashtra, India"
+      },
+      "description": "Shankar Mahadevan is an acclaimed Indian playback singer and music composer. Part of the famous Shankar–Ehsaan–Loy trio, he is also known for his solo singing career and fusion compositions.",
+      "popular_movies": "Breathless (album), Dil Chahta Hai (composer), Taare Zameen Par (composer), Zindagi Na Milegi Dobara (composer), Rock On!! (composer)"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Shanvi Srivastava",
+      "birth": {
+        "date": "1993-12-08",
+        "place": "Varanasi, Uttar Pradesh, India"
+      },
+      "description": "Shanvi Srivastava is an Indian actress who works mainly in Kannada and Telugu cinema. She is known for her expressive performances and roles in commercial and romantic films.",
+      "popular_movies": "Masterpiece, Tarak, Mufti, Atharva, Adda"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Shriya Saran",
+      "birth": {
+        "date": "1982-09-11",
+        "place": "Dehradun, Uttarakhand, India"
+      },
+      "description": "Shriya Saran is an Indian actress known for her work across multiple film industries including Telugu, Tamil, and Hindi cinema. She gained fame with commercial hits and has also appeared in international projects.",
+      "popular_movies": "Sivaji: The Boss, Drishyam, Manam, Awarapan, Midnight's Children"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Siddhant Chaturvedi",
+      "birth": {
+        "date": "1993-04-29",
+        "place": "Ballia, Uttar Pradesh, India"
+      },
+      "description": "Siddhant Chaturvedi is an emerging Bollywood actor who rose to fame with his breakout role as MC Sher in 'Gully Boy'. He is noted for his charisma and fresh energy on screen.",
+      "popular_movies": "Gully Boy, Gehraiyaan, Phone Bhoot, Kho Gaye Hum Kahan, Bunty Aur Babli 2"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sriimurali",
+      "birth": {
+        "date": "1981-12-17",
+        "place": "Bangalore, Karnataka, India"
+      },
+      "description": "Sriimurali is an Indian actor known for his work in Kannada cinema. He achieved massive popularity with the action film Ugramm, which marked a turning point in his career.",
+      "popular_movies": "Ugramm, Bharaate, Madha Mathu Manasi, Mufti, Kanti"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sruthi Hariharan",
+      "birth": {
+        "date": "1989-02-02",
+        "place": "Thiruvananthapuram, Kerala, India"
+      },
+      "description": "Sruthi Hariharan is an Indian actress and producer, primarily working in Kannada cinema. She is known for choosing socially relevant roles and has received critical acclaim for her performances.",
+      "popular_movies": "Lucia, Nathicharami, Godhi Banna Sadharana Mykattu, Beautiful Manasugalu, Sipaayi"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Sugandha Mishra",
+      "birth": {
+        "date": "1988-05-23",
+        "place": "Jalandhar, Punjab, India"
+      },
+      "description": "Sugandha Mishra is an Indian playback singer, comedian, and television presenter. Known for her mimicry and comic timing, she gained popularity through shows like The Kapil Sharma Show.",
+      "popular_movies": "Her work is primarily on TV: The Kapil Sharma Show, Comedy Circus, Dance Plus (host), Heropanti (playback singer)"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Tabu",
+      "birth": {
+        "date": "1971-11-04",
+        "place": "Hyderabad, Telangana, India"
+      },
+      "description": "Tabu is a highly acclaimed Indian actress known for her powerful and nuanced performances in both mainstream and parallel cinema. She has won numerous awards and is regarded as one of the finest actresses in India.",
+      "popular_movies": "Haider, Andhadhun, Maqbool, The Namesake, Drishyam"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Thilak Shekar",
+      "birth": {
+        "date": "1982-01-14",
+        "place": "Bengaluru, Karnataka, India"
+      },
+      "description": "Thilak Shekar is an Indian actor and model who primarily appears in Kannada films. He gained popularity through reality television and went on to act in several psychological thrillers and dramas.",
+      "popular_movies": "Karvva, U Turn, Aa Karaala Ratri, Naviladavaru, Soundarya Nilaya"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Tim Robbins",
+      "birth": {
+        "date": "1958-10-16",
+        "place": "West Covina, California, U.S."
+      },
+      "description": "Tim Robbins is an American actor, director, and producer best known for his role in The Shawshank Redemption. He has earned acclaim for his performances and his socially conscious filmmaking.",
+      "popular_movies": "The Shawshank Redemption, Mystic River, The Player, Bob Roberts, War of the Worlds"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Tom Hanks",
+      "birth": {
+        "date": "1956-07-09",
+        "place": "Concord, California, U.S."
+      },
+      "description": "Tom Hanks is one of the most beloved and respected American actors of all time. Known for his versatile roles and everyman charm, he has starred in some of the most iconic films in cinema history.",
+      "popular_movies": "Forrest Gump, Cast Away, Saving Private Ryan, The Green Mile, Big"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Uma Thurman",
+      "birth": {
+        "date": "1970-04-29",
+        "place": "Boston, Massachusetts, U.S."
+      },
+      "description": "Uma Thurman is an American actress and model, widely known for her collaborations with Quentin Tarantino. She has played a range of roles from action heroines to romantic leads.",
+      "popular_movies": "Pulp Fiction, Kill Bill Vol. 1 & 2, Gattaca, Batman & Robin, The Producers"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Vidya Balan",
+      "birth": {
+        "date": "1979-01-01",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Vidya Balan is an award-winning Indian actress known for breaking stereotypes and playing strong, female-centric roles. She is credited with changing the perception of women in Hindi cinema.",
+      "popular_movies": "Kahaani, The Dirty Picture, Tumhari Sulu, Shakuntala Devi, Sherni"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Viggo Mortensen",
+      "birth": {
+        "date": "1958-10-20",
+        "place": "Watertown, New York, U.S."
+      },
+      "description": "Viggo Mortensen is an American actor, poet, and painter best known for playing Aragorn in The Lord of the Rings trilogy. He is known for his dedication to roles and a wide range of artistic talents.",
+      "popular_movies": "The Lord of the Rings trilogy, A History of Violence, Captain Fantastic, Green Book, Eastern Promises"
+    }
+  },
+  {
+    "model": "dbmodels.actor",
+    "fields": {
+      "name": "Yograj Bhat",
+      "birth": {
+        "date": "1973-10-07",
+        "place": "Mangalore, Karnataka, India"
+      },
+      "description": "Yograj Bhat is a celebrated Indian film director, lyricist, and screenwriter in Kannada cinema. He is known for his poetic lyrics, youth-centric storytelling, and revitalizing commercial Kannada films.",
+      "popular_movies": "Mungaru Male, Gaalipata, Paramathma, Drama, Panchatantra"
+    }
+  }
+]

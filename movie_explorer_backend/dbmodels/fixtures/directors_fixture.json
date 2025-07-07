@@ -1,0 +1,314 @@
+[
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Anthony Russo & Joe Russo",
+      "birth": {
+        "date": "Anthony: 1970-02-03, Joe: 1971-07-18",
+        "place": "Cleveland, Ohio, U.S."
+      },
+      "description": "Anthony and Joe Russo are American filmmaker brothers renowned for reshaping the Marvel Cinematic Universe. They directed several of its highest grossing and critically acclaimed entries.",
+      "popular_movies": "Captain America: The Winter Soldier, Captain America: Civil War, Avengers: Infinity War, Avengers: Endgame, Cherry"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Ashutosh Gowariker",
+      "birth": {
+        "date": "1964-02-15",
+        "place": "Kolhapur, Maharashtra, India"
+      },
+      "description": "Ashutosh Gowariker is an Indian director, screenwriter, and producer best known for grand-scale, deeply emotional films. He won national and international acclaim for Lagaan, Swades, and Jodhaa Akbar.",
+      "popular_movies": "Lagaan, Swades, Jodhaa Akbar, Mohenjo Daro, Panipat"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Christopher Nolan",
+      "birth": {
+        "date": "1970-07-30",
+        "place": "London, England, U.K."
+      },
+      "description": "Sir Christopher Nolan is a British-American filmmaker famed for cerebral, visually ambitious films. A multi‑Oscar winner, he's directed blockbusters like The Dark Knight trilogy, Inception, Dunkirk, and Oppenheimer.",
+      "popular_movies": "Memento, The Dark Knight, Inception, Dunkirk, Oppenheimer"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Damien Chazelle",
+      "birth": {
+        "date": "1985-01-19",
+        "place": "Providence, Rhode Island, U.S."
+      },
+      "description": "Damien Chazelle is an American director and screenwriter who burst onto the scene with his debut feature Whiplash. He went on to win an Academy Award for La La Land at age 32, becoming the youngest Best Director recipient.",
+      "popular_movies": "Whiplash, La La Land, First Man, Babylon, Guy and Madeline on a Park Bench"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "David Fincher",
+      "birth": {
+        "date": "1962-08-28",
+        "place": "Denver, Colorado, U.S."
+      },
+      "description": "David Fincher is an American director known for his dark, stylish psychological thrillers. He's received critical praise for a string of intelligent films and series over four decades.",
+      "popular_movies": "Se7en, Fight Club, The Social Network, Gone Girl, Mank"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Francis Ford Coppola",
+      "birth": {
+        "date": "1939-04-07",
+        "place": "Detroit, Michigan, U.S."
+      },
+      "description": "Francis Ford Coppola is an iconic American director, producer, and screenwriter, celebrated for redefining American cinema in the 1970s. His masterpieces include The Godfather trilogy and Apocalypse Now.",
+      "popular_movies": "The Godfather, The Godfather Part II, Apocalypse Now, The Conversation, Dracula"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Frank Darabont",
+      "birth": {
+        "date": "1959-01-28",
+        "place": "Montbéliard, France"
+      },
+      "description": "Frank Darabont is an American filmmaker and screenwriter renowned for his adaptations of Stephen King’s work. He earned acclaim for The Shawshank Redemption and The Green Mile, and helped launch The Walking Dead.",
+      "popular_movies": "The Shawshank Redemption, The Green Mile, The Mist, The Walking Dead (TV), A Nightmare on Elm Street 3"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "James Cameron",
+      "birth": {
+        "date": "1954-08-16",
+        "place": "Kapuskasing, Ontario, Canada"
+      },
+      "description": "James Cameron is a Canadian director and innovator, known for pushing technical boundaries in film. His works Titanic and Avatar broke box office records and garnered multiple Oscars.",
+      "popular_movies": "The Terminator, Aliens, Titanic, Avatar, Avatar: The Way of Water"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Jayathirtha",
+      "birth": {
+        "date": "1977-05-08",
+        "place": "Bangalore, Karnataka, India"
+      },
+      "description": "Jayathirtha is an Indian theater activist and filmmaker in Kannada cinema, known for socially conscious storytelling and critically praised films like Olave Mandara and Bell Bottom.",
+      "popular_movies": "Olave Mandara, Tony, Beautiful Manasugalu, Bell Bottom"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "K.S. Ashoka",
+      "birth": {
+        "date": "1982-03-19",
+        "place": "Mandya, Karnataka, India"
+      },
+      "description": "K.S. Ashoka is a Kannada filmmaker known for pioneering found footage horror in Sandalwood with *6‑5=2* (2013). He followed up with the acclaimed romantic thriller *Dia* (2020).",
+      "popular_movies": "Dia"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Lana & Lilly Wachowski",
+      "birth": {
+        "date": "Lana 1965-06-21, Lilly 1967-12-29",
+        "place": "Chicago, Illinois, U.S."
+      },
+      "description": "The Wachowskis are American sibling filmmakers famed for *The Matrix* trilogy, *V for Vendetta*, and *Sense8*. They are celebrated for their revolutionary sci‑fi narratives and trans representation in mainstream cinema.",
+      "popular_movies": "The Matrix trilogy, V for Vendetta, Cloud Atlas, Sense8"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Nishikant Kamat",
+      "birth": {
+        "date": "1970-06-17",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Nishikant Kamat was an Indian filmmaker known for his socially relevant storytelling. He made his mark with the Marathi debut *Dombivili Fast* (2005) and earned pan India acclaim directing *Mumbai Meri Jaan* (2008) and Hindi remakes.",
+      "popular_movies": "Dombivili Fast, Evano Oruvan, Mumbai Meri Jaan"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Nitesh Tiwari",
+      "birth": {
+        "date": "1973-05-22",
+        "place": "Itarsi, Madhya Pradesh, India"
+      },
+      "description": "Nitesh Tiwari, an IIT‑Bombay alumnus, is a celebrated Hindi filmmaker. He co‑directed *Chillar Party* and achieved global success with *Dangal* (2016), followed by the popular collegedrama *Chhichhore* (2019).",
+      "popular_movies": "Chillar Party, Dangal, Chhichhore"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Pawan Kumar",
+      "birth": {
+        "date": "1982-10-29",
+        "place": "Karnataka, India"
+      },
+      "description": "Pawan Kumar is a Kannada director, writer, producer, and actor known for his bold storytelling. He made an impact with *Lucia* (2013), a groundbreaking psychological thriller, followed by the thriller *UTurn*.",
+      "popular_movies": "Lucia, UTurn, Lifeu Ishtene"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Peter Jackson",
+      "birth": {
+        "date": "1961-10-31",
+        "place": "Pukerua Bay, New Zealand"
+      },
+      "description": "Sir Peter Jackson is a New Zealand filmmaker celebrated for directing *The Lord of the Rings* and *The Hobbit* trilogies. He has become one of the most influential directors in epic fantasy cinema.",
+      "popular_movies": "The Lord of the Rings trilogy, The Hobbit trilogy, King Kong"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Prashanth Neel",
+      "birth": {
+        "date": "1980-06-04",
+        "place": "Bangalore, Karnataka, India"
+      },
+      "description": "Prashanth Neel is a Kannada filmmaker known for reinventing action cinema with *Ugramm* (2014) and the pan-Indian *KGF* duology (2018–2022), the latter becoming the top-grossing Kannada films ever.",
+      "popular_movies": "Ugramm, KGF: Chapter1, KGF: Chapter2"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Quentin Tarantino",
+      "birth": {
+        "date": "1963-03-27",
+        "place": "Knoxville, Tennessee, U.S."
+      },
+      "description": "Quentin Tarantino is a celebrated American director and screenwriter known for his stylized violence, nonlinear storytelling, and genre-splicing films such as *Pulp Fiction*, *Kill Bill*, and *Once Upon a Time… in Hollywood*. His debut film won the Palme d’Or at Cannes. :contentReference[oaicite:1]{index=1}",
+      "popular_movies": "Reservoir Dogs, Pulp Fiction, Kill Bill Vol.1 &2, Django Unchained, Once Upon a Time… in Hollywood"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Rajkumar Hirani",
+      "birth": {
+        "date": "1962-11-20",
+        "place": "Nagpur, Maharashtra, India"
+      },
+      "description": "Rajkumar Hirani is a leading Hindi filmmaker celebrated for combining humor with social commentary. His films *Munna Bhai M.B.B.S.*, *3 Idiots*, *PK*, and *Sanju* are among the most successful and culturally influential in Indian cinema. :contentReference[oaicite:2]{index=2}",
+      "popular_movies": "Munna Bhai M.B.B.S., Lage Raho Munna Bhai, 3 Idiots, PK, Sanju"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Ridley Scott",
+      "birth": {
+        "date": "1937-11-30",
+        "place": "South Shields, Tyne and Wear, England"
+      },
+      "description": "Sir Ridley Scott is an English director known for his atmospheric and visually striking films across sci-fi (*Alien*, *Blade Runner*), epic (*Gladiator*), and historical genres. His career spans six decades and features multiple accolades. :contentReference[oaicite:3]{index=3}",
+      "popular_movies": "Alien, Blade Runner, Gladiator, Thelma & Louise, The Martian"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Rishab Shetty",
+      "birth": {
+        "date": "1983-07-07",
+        "place": "Kundapura, Karnataka, India"
+      },
+      "description": "Rishab Shetty is an Indian actor and filmmaker working primarily in Kannada cinema. He achieved national acclaim for writing, directing, and starring in the action-thriller **Kantara**, which became a massive success.",
+      "popular_movies": "Kantara, Bell Bottom, Sarkari Hi. Pra. Shaale, Kirik Party, Hero"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Robert Zemeckis",
+      "birth": {
+        "date": "1952-05-14",
+        "place": "Chicago, Illinois, U.S."
+      },
+      "description": "Robert Zemeckis is an American director and screenwriter celebrated for his innovative use of special effects in crowd-pleasing films. He won an Academy Award for *Forrest Gump* and is known for classics like *Back to the Future* and *Who Framed Roger Rabbit*.",
+      "popular_movies": "Back to the Future, Forrest Gump, Who Framed Roger Rabbit, Cast Away, Flight"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Sachin Ravi",
+      "birth": {
+        "date": "1990-11-30",
+        "place": "Karnataka, India"
+      },
+      "description": "Sachin B. Ravi is an Indian filmmaker, editor, and VFX artist noted for his work in Kannada cinema. He rose to prominence directing the fantasy-adventure *Avane Srimannarayana* (2019) after contributing to films like *Ulidavaru Kandanthe* and *Kirik Party*.",
+      "popular_movies": "Avane Srimannarayana, Ulidavaru Kandanthe, Godhi Banna Sadharana Mykattu, Kirik Party"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Shoojit Sircar",
+      "birth": {
+        "date": "1967-10-06",
+        "place": "Kolkata, West Bengal, India"
+      },
+      "description": "Shoojit Sircar is an award-winning Indian filmmaker known for socially relevant Hindi cinema. His hits include *Vicky Donor*, *Piku*, and *Sardar Udham*, blending humor, emotion, and social themes to critical and commercial acclaim.",
+      "popular_movies": "Yahaan, Vicky Donor, Piku, Madras Cafe, Sardar Udham"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Sriram Raghavan",
+      "birth": {
+        "date": "1963-06-22",
+        "place": "Bombay (now Mumbai), Maharashtra, India"
+      },
+      "description": "Sriram Raghavan is a prominent Hindi filmmaker and screenwriter, revered for his neo-noir thrillers. Known for stylish, gripping narratives, his acclaimed works include *Ek Hasina Thi*, *Johnny Gaddaar*, *Badlapur*, and *Andhadhun*.",
+      "popular_movies": "Ek Hasina Thi, Johnny Gaddaar, Badlapur, Andhadhun"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Sujoy Ghosh",
+      "birth": {
+        "date": "1966-05-21",
+        "place": "Kolkata, West Bengal, India"
+      },
+      "description": "Sujoy Ghosh is an Indian writer-director known for his thrillers and mysteries. He gained fame with *Kahaani* (2012) and has directed hits like *Jhankaar Beats* and *Badla*, along with acclaimed short films and web projects.",
+      "popular_movies": "Jhankaar Beats, Kahaani, Kahaani 2, Badla, Ahalya (short)"
+    }
+  },
+  {
+    "model": "dbmodels.director",
+    "fields": {
+      "name": "Zoya Akhtar",
+      "birth": {
+        "date": "1972-10-14",
+        "place": "Mumbai, Maharashtra, India"
+      },
+      "description": "Zoya Akhtar is an acclaimed Indian filmmaker, screenwriter, and producer known for nuanced storytelling blending humor and social insight. Her major works include *Zindagi Na Milegi Dobara*, *Gully Boy*, and the web series *Made in Heaven*.",
+      "popular_movies": "Luck by Chance, Zindagi Na Milegi Dobara, Gully Boy, Dil Dhadakne Do, Made in Heaven (TV)"
+    }
+  }
+]

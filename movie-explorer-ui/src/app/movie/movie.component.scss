@@ -1,0 +1,409 @@
+.mainwrapper {
+    font-family: 'Inter', sans-serif;
+    // background-color: #1a1a1a;
+    background-color: #121829;
+    display: flex;
+    min-height: 77.2vh;
+    /* Dark background */
+    color: #e0e0e0;
+    overflow: hidden;
+    /* Light text */
+}
+.second-nav{
+    background-color: #121829;
+    padding-left:35px !important;
+}
+
+.card {
+    padding-top: 200px;
+    border-color: #1a1a1a;
+    // background-color: #2a2a2a;
+    // background-color: red;
+    border-radius: 0.75rem;
+    /* rounded-xl */
+    // overflow: hidden;
+    // position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Pop-out effect on hover */
+    z-index: 10;
+    /* Bring hovered card to front */
+}
+
+.hover-button2-wrapper {
+    // background: linear-gradient(to right, rgba(220, 38, 38, 0.7), rgba(220, 38, 38, 0.7)); /* Semi-transparent red */
+    position: absolute;
+    bottom: 2rem;
+    /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    // transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 3;
+    /* Ensure it's above the image and background */
+}
+
+.card:hover .hover-button2-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 0.75rem;
+    // top: 0;
+    // left: 0;
+    // z-index: 1;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 1rem;
+    color: white;
+    z-index: 2;
+    /* Ensure overlay is on top of the image */
+    /* Removed h-full here to allow height to be content-driven */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.search-input-wrapper {
+    margin-top:-15px;
+    position: relative;
+    /* Crucial for positioning the absolute icon */
+    // left: 5%;
+    width: 100%;
+    max-width: 500px; //460px
+    /* Limit width for better aesthetics */
+    max-height: 20px;
+    flex-shrink: 1;
+}
+
+.search-input {
+    height:36px;
+    width: 100%;
+    padding: 0.75rem 2.2rem;
+    padding-left: 3rem;
+    /* Space for the search icon */
+    border-radius: 9999px;
+    /* Fully rounded corners */
+    // background-color: #2a2a2a;
+    background-color: #121829;
+    border: none;
+    color: #e0e0e0;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    /* Position the icon relative to its parent wrapper */
+    left: 1rem; 
+    /* Distance from the left edge of the input field */
+    top: 90%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for true vertical centering */
+    color: #9ca3af;
+    /* Gray-400 */
+    font-size: 1.2rem;
+    /* Adjust icon size if needed */
+}
+
+.search-icon-actor {
+    position: absolute;
+    /* Position the icon relative to its parent wrapper */
+    // left: 18rem;
+    // left:31rem;
+    padding-left:1%;
+    /* Distance from the left edge of the input field */
+    padding-top: 3%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for true vertical centering */
+    color: #9ca3af;
+    /* Gray-400 */
+    font-size: 1rem;
+    /* Adjust icon size if needed */
+    z-index: 1; /* Ensure it's above the input field */
+}
+
+.filter-container-actor{
+    padding-left:20%;
+}
+
+.filter-container-director{
+    padding-left:35%;
+}
+
+.search-icon-director{
+    position: absolute;
+    /* Position the icon relative to its parent wrapper */
+    padding-left: 1%;
+    /* Distance from the left edge of the input field */
+    padding-top: 3%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for true vertical centering */
+    color: #9ca3af;
+    /* Gray-400 */
+    font-size: 1rem;
+    /* Adjust icon size if needed */
+}
+
+.main-heading {
+    font-size: 1.1rem;
+}
+
+
+.second-heading {
+    font-size: 1.2rem;
+}
+
+.mainwrapper-frame {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.view-button2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    // background-color: #9f26dc;
+    background: linear-gradient(to right, white, #c1c3c5);
+    /* Semi-transparent red */
+    /* A shade of red, similar to the image */
+    color: black;
+    padding: 0.75rem 2rem;
+    /* Increased padding for a larger button */
+    border-radius: 9999px;
+    font-size: 0.7rem;
+    /* Larger text */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /* Subtle shadow */
+}
+
+.view-button2:hover {
+    background-color: #b91c1c;
+    /* Darker red on hover */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* More pronounced shadow */
+}
+
+
+
+.movie-card-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    padding: 8px;
+    background: #0F1424;
+    border-radius: 15px;
+    cursor: pointer;
+
+    .image-container {
+        width: 100%;
+        height: 411px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 9px 8px;
+    }
+
+    .name {
+        margin-bottom: 25px;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+        color: #EBEEF5;
+        text-wrap: wrap;
+
+    }
+}
+
+.movie-card-container:hover {
+    transform: scale(1.05);
+    /* Pop-out effect on hover */
+    z-index: 10;
+    /* Bring hovered card to front */
+}
+
+.hover-button-wrapper {
+    // background: linear-gradient(to right, rgba(220, 38, 38, 0.7), rgba(220, 38, 38, 0.7)); /* Semi-transparent red */
+    position: absolute;
+    bottom: 10rem;
+    /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    // transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 3;
+    /* Ensure it's above the image and background */
+}
+
+.movie-card-container:hover .hover-button-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.movie-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+
+    .movie-card {
+        padding-bottom:10px;
+        width: calc((100%/3) - 24px);
+        min-width: 290px;
+        align-self: stretch;
+    }
+}
+
+
+.rate-chip-component {
+    display: flex;
+    column-gap: 5px;
+    padding: 5px 8px;
+    border-radius: 7px;
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.8);
+
+    i {
+        color: #EEA245;
+        font-weight: bold;
+    }
+
+    span {
+        font-size: 17.35px;
+        font-weight: bold;
+        color: #EEA245;
+    }
+}
+
+.star-icon {
+    padding-top: 5px;
+}
+
+
+.filter-label {
+    font-weight: 500;
+    color: #e0e0e0;
+    margin-right: 0.5rem;
+}
+
+.filter-select,
+.filter-input {
+    background-color: #0f1424;
+    border: 1px solid #0f1424;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    padding-left: 2.5rem;
+    /* Space for the search icon */
+    color: #e0e0e0;
+    font-size: 0.9rem;
+    outline: none;
+    appearance: none;
+    /* Remove default select arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    min-width: 150px;
+    /* Ensure a decent width */
+}
+
+
+
+
+
+.filter-select-wrapper {
+    position: relative;
+}
+
+.filter-select-wrapper::after {
+    content: '▼';
+    /* Custom dropdown arrow */
+    font-size: 0.8rem;
+    color: #a0a0a0;
+    position: absolute;
+    // right: 0.75rem;
+    left:11rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Allow clicks to pass through */
+}
+
+/* movie.component.css */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.8);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3f51b5;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.nav-bar{
+    background-color: #0f1424;
+}
+
+.user-icon{
+    text-align: right;
+    color: white;
+}
+
+.movie-header{
+    padding-top:20px;
+    padding-left: 10px;
+}
+
+.movie-container{
+    padding-top:20px !important;
+    border-radius: 0.75rem;
+}
+
+.downloadImageSize {
+    width: 30px;
+    height: 30px;
+}
