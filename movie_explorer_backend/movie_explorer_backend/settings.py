@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'movie_explorer_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'movie_explorer',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'NAME': 'movie_explorer_k33n',
+        'USER': 'movie_explorer_k33n_user',
+        'PASSWORD': 'FAEa3yleHl5sTbHckV4khP1po7rfNyW7',
+        'HOST': 'dpg-d1n7036mcj7s73bogif0-a',
         'PORT': '5432',
         'ATOMIC_REQUESTS': True, #Ensures the DB doesn't end up in a half-updated state if an error occurs.
     }
