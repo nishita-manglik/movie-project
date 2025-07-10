@@ -1,13 +1,10 @@
-from django.shortcuts import render
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
+from rest_framework.views import APIView
 
 from actor.serializers import ActorSerializer
 from dbmodels.models import Actor
 from drf_spectacular.utils import extend_schema
-from rest_framework import generics
 from rest_framework import status
-
 
 @extend_schema(
     summary="Actor Details",
@@ -15,18 +12,14 @@ from rest_framework import status
     responses=ActorSerializer,
     tags=["Actors"]
 )
-class ActorDetailAPIView(generics.RetrieveAPIView):
-    queryset = Actor.objects.all()
-    serializer_class = ActorSerializer
-    lookup_field = 'id'  # This tells DRF to look for actor by ID
+class ActorDetailView(APIView):
 
-    def get_object(self):
+    def get(self, request, id):
         try:
-            return self.queryset.get(id=self.kwargs['id'])
+            actor = Actor.objects.get(id=id)
+            serializer = ActorSerializer(actor)
+            return Response(serializer.data, status=status.HTTP_200_OK)
         except Actor.DoesNotExist:
-            return Response(
-                    {"detail": "No actor data available in the database."},
-                    status=status.HTTP_400_BAD_REQUEST
-                )
+            return Response({"detail": f"Actor with id {id} not found."}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
-            return Response({"detail": f" {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response({"detail": f"Server error: {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

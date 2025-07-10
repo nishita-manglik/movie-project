@@ -8,21 +8,6 @@ class MovieListSerializer(serializers.ModelSerializer):
         model = Movie
         fields = ['id', 'poster', 'title', 'year', 'imdbRating']
 
-
-class DirectorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Director
-        fields = ['name']
-
-class ActorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Actor
-        fields = ['name']
-
-class GenreSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Genre
-        fields = ['name']
         
 class MovieDetailSerializer(serializers.ModelSerializer):
     imdbRating = serializers.FloatField(source='imdb_rating')

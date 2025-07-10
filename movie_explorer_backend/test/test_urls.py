@@ -1,6 +1,6 @@
 from django.urls import resolve
-from actor.views import ActorDetailAPIView as ActorView
-from director.views import ActorDetailAPIView as DirectorView  # Note: this should likely be renamed
+from actor.views import ActorDetailView as ActorView
+from director.views import DirectorDetailView as DirectorView  
 from genre.views import GenreListView
 from movie.views import (
     MovieListAPIView,

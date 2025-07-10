@@ -1,31 +1,24 @@
-from django.shortcuts import render
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
 from drf_spectacular.utils import extend_schema
 from dbmodels.models import Director
 from director.serializers import DirectorSerializer
-from rest_framework import generics
+from rest_framework.views import APIView
 from rest_framework import status
 
-
 @extend_schema(
-    summary="Director Details",
-    description="Returns the detail of an director based on actor ID.",
-    responses=DirectorSerializer,
+    summary="Director details",
+    description="Returns the detail of an director based on director ID.",
+    responses={200: DirectorSerializer},
     tags=["Directors"]
 )
-class ActorDetailAPIView(generics.RetrieveAPIView):
-    queryset = Director.objects.all()
-    serializer_class = DirectorSerializer
-    lookup_field = 'id'  # This tells DRF to look for actor by ID
+class DirectorDetailView(APIView):
 
-    def get_object(self):
+    def get(self, request, id):
         try:
-            return self.queryset.get(id=self.kwargs['id'])
+            director = Director.objects.get(id=id)
+            serializer = DirectorSerializer(director)
+            return Response(serializer.data, status=status.HTTP_200_OK)
         except Director.DoesNotExist:
-            return Response(
-                    {"detail": "No director data available in the database."},
-                    status=status.HTTP_400_BAD_REQUEST
-                )
+            return Response({"detail": f"Director with id {id} not found."}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
-            return Response({"detail": f" {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response({"detail": f"Server error: {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
