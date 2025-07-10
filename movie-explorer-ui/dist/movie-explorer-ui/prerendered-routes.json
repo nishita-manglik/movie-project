@@ -1,0 +1,6 @@
+{
+  "routes": [
+    "/movie",
+    "/movie/movie-detail"
+  ]
+}
