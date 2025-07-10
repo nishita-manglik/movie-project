@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hojcvd@mkz-t$^hf#&(*ffk79l6=-8gke7sz+^*)1ah*4)2c@n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 
@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'movie_explorer_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'movie_explorer',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'NAME': 'movie_explorer_uems',
+        'USER': 'movie_explorer_uems_user',
+        'PASSWORD': 'YQMt5ZCXNbOwvJZIecKPGmXAKFaQU9qD',
+        'HOST': 'dpg-d1n7v3buibrs73e86rng-a',
         'PORT': '5432',
         'ATOMIC_REQUESTS': True, #Ensures the DB doesn't end up in a half-updated state if an error occurs.
     }
